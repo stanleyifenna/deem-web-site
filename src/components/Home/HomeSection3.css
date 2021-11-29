@@ -1,0 +1,95 @@
+.how-works {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-size: 32px;
+}
+
+.payment-steps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 360;
+  line-height: 16px;
+  font-size: 16px;
+}
+
+.steps {
+  color: #595959;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.titles {
+  color: #002766;
+  font-size: 24px;
+  line-height: 16px;
+  padding-top: 32px;
+}
+
+.descriptions {
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 25.6px;
+  font-size: 16px;
+  max-width: 400px;
+  padding-bottom: 30px;
+}
+
+.merchant-img:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .working-section {
+    padding: 0px 24px;
+    max-width: 1128px;
+    margin: auto;
+  }
+
+  .worky {
+    margin-top: 0px;
+    padding-left: 2rem;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .how-works {
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 50px;
+  }
+
+  .payment-steps {
+    margin-top: 8px;
+    padding-bottom: 40px;
+  }
+
+  .top-part {
+    margin-top: -6.5rem;
+  }
+
+  .merchant-img1 {
+    margin-top: -48px;
+  }
+
+  .titles {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .descriptions {
+    line-height: 24px;
+    font-size: 16px;
+  }
+
+  .description {
+    line-height: 24px;
+    font-size: 16px;
+  }
+}

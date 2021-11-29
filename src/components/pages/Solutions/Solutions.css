@@ -1,0 +1,145 @@
+.solution-home {
+  padding: 10px 0;
+}
+
+.solu-tion {
+  background-color: #eff5ff;
+  height: 450px;
+  width: 100%;
+}
+
+.btnblue {
+  background: #1a71ff;
+  border-radius: 8px;
+  height: 48px;
+  max-width: 300px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  text-decoration: none;
+}
+
+.btn--blue:hover {
+  background: #0f76d1;   
+}
+
+
+.btn--black:hover {
+  background: rgb(15, 10, 10);   
+}
+
+
+.solution-top {
+  padding-top: 12rem;
+}
+
+.solutions {
+  height: 48vh;
+  width: 100%;
+  background-color: #eff5ff;
+  margin-bottom: 20px;
+  padding: 10px 0;
+}
+.star {
+  display: inline-block;
+  align-items: center;
+  padding-right: 10px;
+  color: #629cff;
+  font-size: 12px;
+}
+.deempay__merchant {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 47px;
+  font-style: bold;
+  color: #000000;
+}
+
+
+
+.lower-cost {
+  font-size: 16px;
+  line-height: 24px;
+  font-style: regular;
+  color: #00112c;
+  font-weight: 400;
+  max-width: 75%;
+}
+
+.btn-black {
+  background-color: #000000;
+  border: none;
+  text-decoration: none;
+}
+.btn-blue {
+  background-color: #1a71ff;
+  border: none;
+  text-decoration: none;
+}
+
+.img-app {
+  padding-top: 6rem;
+}
+
+.solutions-top {
+  padding-top: 8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .img-app {
+    margin-left: 0px;
+  }
+
+  .solutions-top {
+    padding-top: 28rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .img-app {
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .solution-top {
+    padding-top: 0rem;
+    margin-bottom: -10rem;
+  }
+
+  .deempay__merchant {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.25px;
+    font-style: bold;
+    color: #000000;
+  }
+  
+  
+  
+  .lower-cost {
+    font-size: 16px;
+    line-height: 24px;
+    font-style: regular;
+    color: #00112c;
+    font-weight: 400;
+    max-width: 100%;
+  }
+
+  .solu-tion {
+    background-color: #eff5ff;
+    height: 550px;
+    width: 100%;
+  }
+  
+  
+  
+}
+
+
+

@@ -1,0 +1,92 @@
+.careers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 65px;
+  line-height: 70.5px;
+  padding-bottom: 5px;
+}
+
+.career__space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 33px;
+}
+
+#content {
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  flex-direction: column;
+  display: flex;
+}
+
+#our-openings {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.career--btn {
+  background: #1a71ff;
+  padding: 10px 20px;
+  color: #fff;
+  outline: none;
+  font-weight: 500;
+  font-size: 17px;
+  border-radius: 8px;
+  line-height: 23.5px;
+  width: 160px;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+}
+
+.career--btn:hover {
+  background: #0f76d1;
+  border: none;
+}
+
+@media screen and (max-width: 480px) {
+  .careers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 35px;
+    line-height: 35px;
+    padding-bottom: 10px;
+  }
+
+  .career__space {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 100%;
+  }
+
+  #content {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 100%;
+  }
+
+  .career-section {
+    margin-top: -7rem;
+    margin-bottom: -7rem;
+  }
+}

@@ -1,0 +1,112 @@
+:root {
+--primary: #1A71FF
+}
+
+.btn {
+    padding: 1280px 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.btn--primary {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border: 1px soilid var(--primary);
+}
+.btn--outline {
+    color: #1A71FF;
+    padding: 9px 28px;
+    transition: none;
+    font-size: medium;
+}
+
+.btn-medium {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+.btn-large {
+    padding: 12px 26px;
+    font-size: 20px;
+}
+.btn--mobile {
+    text-align: center;
+    border-radius: 8px;
+    width: 80%;
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFFFFF;
+    padding: 0px 8px;
+    border: none
+}
+.btn--wide {
+    display: inline-block;
+    padding: 12px 22px;
+    text-decoration: none;
+    transition: none;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 7px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+      
+}
+.white {
+    background-color: #ffffff;
+    color: #1a71ff;
+    border: none;
+    
+}
+.blue {
+    background-color: #1a71ff;
+    color: #FFFFFF;
+    border: none;
+
+}
+.big-blue {
+    background-color: #1a71ff;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 40px;
+
+}
+.primary:hover {
+    background-color: #ffffff;
+    color: #1a71ff;
+    border: 0.5px solid #1A71FF;
+}
+
+.primary {
+    background-color: #1a71ff;
+    color: #FFFFFF;
+    border: none;
+
+}
+.black {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+}
+.blackk {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+}
+.blackk:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 0.5px solid #000000;
+}
+
+.btn-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
+}

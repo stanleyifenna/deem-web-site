@@ -1,0 +1,129 @@
+.our-partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-style: bold;
+  line-height: 47px;
+  font-size: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.our-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28.8px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.partners-log {
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 62px 200px 0px 200px;
+}
+
+.partners1 {
+  margin-left: -0px;
+}
+
+.partners2 {
+  padding-left: 72px;
+}
+
+.partners3 {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+.partners4 {
+  padding-right: 72px;
+}
+
+.partners-log {
+  align-items: center;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  display: flex;
+  padding: 62px 200px 0px 200px;
+}
+
+@media screen and (max-width: 480px) {
+  .our-partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-style: bold;
+    line-height: 35.25px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .partners2 {
+    padding-left: 40px;
+  }
+
+  .our-value {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    text-align: center;
+  }
+
+
+  .partners1 {
+    padding-bottom: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .partners2 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .partners3 {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+  }
+
+  .partners4 {
+    padding-right: 2px;
+    padding-bottom: 40px;
+  }
+
+  .partners5 {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .partners-logo {
+    align-items: center;
+    padding-top: 0px;
+    margin: auto;
+  }
+
+  .partners3 {
+    padding-top: 40px;
+  }
+
+  .partners4 {
+    padding-top: 30px;
+  }
+}

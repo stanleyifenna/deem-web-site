@@ -1,0 +1,118 @@
+.privacy-deempay {
+  height: 286px;
+  width: 100%;
+  background-color: #f8fafb;
+}
+
+.privacy-section {
+  padding-left: 11rem;
+  padding-right: 11rem;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.privacy_privacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  line-height: 47px;
+  font-weight: 700;
+  color: #1a71ff;
+  padding-top: 130px;
+}
+.updated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: #595959;
+  padding-bottom: 10px;
+}
+
+.privacy-interpretation {
+  padding-top: 35px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.44px;
+  color: #000000;
+}
+
+.privacy-hints {
+  padding-left: 20px;
+  font-size: 17.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.44px;
+  color: #000000;
+}
+
+.privacy-interpretations {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.44px;
+  color: #000000;
+}
+.privacy-definitions {
+  font-size: 28px;
+  line-height: 41.13px;
+  font-style: normal;
+  font-weight: 700;
+  color: #002664;
+  padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .privacy-section {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 30px;
+  }
+
+  .privacy-definitions {
+    font-size: 24px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: #002664;
+    padding-top: .5rem;
+  }
+
+  
+.privacy-interpretation {
+  padding-top: 35px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.privacy-hints {
+  padding-left: 20px;
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.privacy-interpretations {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .privacy-section {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 60px;
+  }
+}
