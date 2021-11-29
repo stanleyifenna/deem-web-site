@@ -1,0 +1,217 @@
+.clear-pricing {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.05px;
+  color: #000000;
+  max-width: 80%;
+}
+
+.clear-pricing2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+  max-width: 80%;
+}
+
+.clear-transactions {
+  font-size: 16px;
+  line-height: 23.5px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  max-width: 95%;
+  padding: 6px 0px;
+}
+
+.clear-transactions2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.5px;
+  color: rgba(0, 0, 0, 0.7);
+  max-width: 67%;
+}
+
+.black--btn {
+  background: #000000;
+  border-radius: 8px;
+  height: 48px;
+  width: 128px;
+  text-align: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+  text-decoration: none;
+}
+
+
+.black--btn:hover {
+  background: rgb(15, 10, 10);   
+}
+
+
+.learn-more {
+  font-size: 16px;
+  line-height: 23.5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.left-side {
+  display: flex;
+  padding-top: 46px;
+}
+
+.first-left {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.webApp {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  padding-right: 8px;
+}
+
+.free-img {
+  margin-top: -5px;
+  padding-right: 43px;
+}
+
+.free-img1 {
+  margin-top: -5px;
+}
+
+.right-side {
+  display: flex;
+}
+
+.point-shape {
+  height: 56px;
+  max-width: 250px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.points {
+  font-size: 16px;
+  line-height: 16px;
+  color: #003a99;
+}
+
+.payment-points1 {
+  padding-top: 30px;
+  padding-left: 0px;
+}
+
+.payment-points2 {
+  padding-top: 30px;
+  padding-left: 24px;
+}
+
+.payment-points3 {
+  padding-top: 16px;
+  padding-right: 24px;
+}
+
+.payment-points4 {
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 480px) {
+  .clear-pricing {
+    max-width: 100%;
+  }
+
+  .clear-pricing2 {
+    max-width: 100%;
+    margin-top: -12rem;
+  }
+
+  .learn-more {
+    font-size: 14px;
+    line-height: 15px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .clear-transactions {
+    max-width: 100%;
+    line-height: 25.6px;
+    font-size: 16px;
+  }
+
+  .clear-transactions2 {
+    max-width: 100%;
+    line-height: 25.6px;
+    font-size: 16px;
+  }
+
+  .webApp {
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    padding-right: 1px;
+  }
+
+  .free-img {
+    padding-right: 8px;
+  }
+
+  .payment-points2 {
+    padding-top: 20px;
+    padding-left: 0px;
+  }
+
+  .payment-points3 {
+    padding-right: 0px;
+  }
+
+  .first-left {
+    margin-top: -20px;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+ 
+.left-side {
+  
+  display: grid;
+  justify-content: space-between;
+}
+.p-below {
+  padding-top: 28px;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+  .clear-pricing2 {
+    max-width: 100%;
+  }
+
+  .clear-transactions2 {
+    max-width: 100%;
+  }
+
+  .payment-points2 {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .right-side {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+}

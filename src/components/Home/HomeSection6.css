@@ -1,0 +1,148 @@
+.maximum-security {
+  font-size: 24px;
+  line-height: 29.05px;
+  font-weight: 700;
+  color: #000000;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.security {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+}
+.sub-head {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-top: 20px;
+}
+.encryption {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  max-width: 70%;
+  padding-top: 10px;
+}
+
+.lock-img {
+  transition: 1s ease;
+}
+
+.lock-img:hover {
+  -webkit-transform: rotateZ(-20deg);
+  -ms-transform: rotateZ(-20deg);
+  transform: rotateZ(-20deg);
+  transition: 1s ease;
+}
+
+@media screen and (max-width: 480px) {
+  .lock-img {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -45px;
+    padding-top: 40px;
+  }
+
+  .maximum-security {
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .security {
+    color: #333333;
+    line-height: 25.6px;
+    font-size: 16px;
+    justify-content: flex-start;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+  }
+  .sub-head {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+
+  }
+
+  .encryption {
+    color: #333333;
+    line-height: 25.6px;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lock-img {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 80px;
+  }
+
+  .maximum-security {
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 700;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .security {
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .sub-head {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .encryption {
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    max-width: 100%;
+  }
+}
